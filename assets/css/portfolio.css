@@ -1,5 +1,6 @@
-/*@media screen and (max-width: 980px) {
-	.main-section {
-		width: 35% ;
-	}
-}*/
+@media screen and (max-width: 640px) {
+ input[type=text], 
+ input[type=email], 
+ textarea {
+ 	width: 270px;
+}
