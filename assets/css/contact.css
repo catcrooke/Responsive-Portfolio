@@ -1,7 +1,4 @@
 @media screen and (max-width: 980px) {
- 	#contact-form {
- 		/*width: 420px;*/
- 	}
  	input[type=text], 
  	input[type=email], 
  	textarea {

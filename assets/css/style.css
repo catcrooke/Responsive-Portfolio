@@ -238,13 +238,13 @@ input[type=submit] {
 		width: 960px;
 	}
 	
-	label, 
+/*	label, 
 	input[type=text], 
 	input[type=email], 
 	textarea {
     	display: block;
     	width: 355px;
-	}
+	}*/
 }
 
 /*Media Queries at 980px*/
