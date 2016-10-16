@@ -216,6 +216,37 @@ input[type=submit] {
 
 /*Media Queries */
 
+/*Media Queries above 980px*/
+@media screen and (min-width: 981px) {
+	#main-container {
+		clear: both;
+	}
+	nav {
+		float: right;
+		margin-right: 40px;
+	}
+	.main-section{
+		width: 420px;
+	}
+
+	.sidebar {
+		float: right;
+		margin-right: 40px;
+		width: 270px;
+	}
+	.container {
+		width: 960px;
+	}
+	
+	label, 
+	input[type=text], 
+	input[type=email], 
+	textarea {
+    	display: block;
+    	width: 355px;
+	}
+}
+
 /*Media Queries at 980px*/
 @media screen and (max-width: 980px) {
 	#main-container {
@@ -223,19 +254,22 @@ input[type=submit] {
 	}
 	nav {
 		float: left;
-		margin-left: 200px;
+		margin-left: 90px;
 	}
     .main-section {
-		width: 420px;
+		width: 330px;
+		margin-right: auto;
+		margin-left: auto;
 	}
 	.sidebar {
 		float: left;
-		margin-left: 40px;
+		margin-left: 20px;
 		width: 270px;
 	}
 	.container {
-		width: 748px;
+		width: 620px;
 	}
+
 }
 
 /*Media Queries at 768px*/
@@ -245,23 +279,23 @@ input[type=submit] {
 	}
 	nav {
 		float: left;
-		margin-left: 200px;
+		margin-left: 70px;
 	}
     .main-section {
-		width: 728px;
+		width: 600px;
 		margin-left: auto;
 		margin-right: auto;
 /*		clear: both;*/
 	}
 	.sidebar {
 		float: left;
-		max-width: 728px;
-		width: 728px;
+		max-width: 600px;
+		width: 600px;
 		margin-left: auto;
 		margin-right: auto;
 	}
 	.container {
-		width: 748px;
+		width: 625px;
 	}
 }
 /*Media Queries at 640px*/
